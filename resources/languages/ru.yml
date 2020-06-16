@@ -1,7 +1,7 @@
 # Brew
 Brew_-times: -раз
 Brew_BadPotion: Испорченное зелье
-Brew_BarrelRiped: Настоявшееся в бочке
+Brew_BarrelRiped: Выдержки
 Brew_DistillUndefined: Мутный Дистиллят
 Brew_Distilled: Дистиллированный
 Brew_LessDistilled: Малодистиллированный
@@ -13,7 +13,7 @@ Brew_ThickBrew: Мутная бражка
 Brew_Undefined: Котельная бражка
 Brew_Woodtype: тип дерева
 Brew_Years: года
-Brew_fermented: ферментировано
+Brew_fermented: Брожения
 Brew_minute: минут
 Brew_Alc: Алк &v1ml
 
