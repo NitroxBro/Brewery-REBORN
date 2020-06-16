@@ -161,161 +161,161 @@ cauldron:
 
   # -- One Ingredient: --
   wheat:
-    name: Fermented wheat
+    name: Ферментированное пшено
     ingredients: Wheat
 
   sugarcane:
-    name: Sugar brew
+    name: Сахарная настойка
     ingredients: Sugar_Cane
     color: 'f1ffad' # yellowish green
 
   sugar:
-    name: Sugarwater
+    name: Сахарная вода
     ingredients: Sugar
 
   apple:
-    name: Apple must
+    name: Яблочный сок
     ingredients: Apple
 
   berries:
-    name: Grape must
+    name: Виноградный сок
     ingredients: Sweet_Berries
     color: RED
 
   potato:
-    name: Potatomash
+    name: картофельное пюре
     ingredients: Potato
 
   grass:
-    name: Boiled herbs
+    name: Травяная настойка
     ingredients: Grass
     color: '99ff66' # bright green
 
   rmushroom:
-    name: Mushroom brew
+    name: Грибная настойка
     ingredients: Red_Mushroom
     color: 'ff5c33' # amber red
 
   bmushroom:
-    name: Mushroom brew
+    name: Грибная настойка
     ingredients: Brown_Mushroom
     color: 'c68c53' # brighter brown
 
   cocoa:
-    name: Chocolately brew
+    name: Шоколадная настойка
     ingredients: Cocoa_Beans
     color: '804600' # mocca
 
   milk:
-    name: Milky water
+    name: Молочная вода
     ingredients: Milk_Bucket
     color: BRIGHT_GREY
 
   bl_flow:
-    name: Blueish brew
+    name: Голубая настойка
     ingredients: blue-flowers
     color: '0099ff' # sky blue
 
   cactus:
-    name: Agave brew
+    name: Настойка агавы
     ingredients: cactus
     color: '00b300' # cactus green
 
   poi_potato:
-    name: Poisonous Broth
+    name: Ядовитая настойка
     ingredients: Poisonous_Potato
 
   egg:
-    name: Sticky brew
+    name: Липкая настойка
     ingredients: Egg
 
 
   oak_sapling:
-    name: Stringy hebry broth
+    name: Тягучая травяная настойка
     ingredients: Oak_Sapling
 
   vine:
-    name: Boiled herbs
+    name: Травяная настойка
     ingredients: vine
     color: '99ff66' # bright green
 
   rot_flesh:
-    name: Foul pest
+    name: Гнилая настойка
     ingredients: Rotten_Flesh
     color: '263300' # brown green
 
   melon:
-    name: Melon juice
+    name: Арбузный сок
     ingredients: melon_slice
 
   wheat_seeds:
-    name: Bitter brew
+    name: Горькая настойка
     ingredients: Wheat_Seeds
 
   melon_seeds:
-    name: Bitter brew
+    name: Горькая настойка
     ingredients: Melon_Seeds
 
   pumpkin_seeds:
-    name: Bitter brew
+    name: Горькая настойка
     ingredients: Pumpkin_Seeds
 
   bone_meal:
-    name: Bony Brew
+    name: Костянная настойка
     ingredients: bone_meal
     color: BRIGHT_GREY
 
   cookie:
-    name: Chocolately sap
+    name: шоколадный сок
     ingredients: Cookie
     color: '804600' # mocca
 
   fer_spid_eye:
-    name: Fermented Eye
+    name: Ферментированный глаз
     ingredients: Fermented_Spider_Eye
 
   ghast_tear:
-    name: Sad brew
+    name: Грустная настойка
     ingredients: ghast_tear
 
   snowball:
-    name: Icewater
+    name: Ледяная вода
     ingredients: Snowball
 
   Gold_Nugget:
-    name: Glistering brew
+    name: Блястящаяя настойка
     ingredients: Gold_Nugget
     color: 'ffd11a' # gold
 
   glowstone_dust:
-    name: Glowing brew
+    name: Светящаяся настойка
     ingredients: Glowstone_Dust
     color: 'ffff33' # bright yellow
 
   # -- Multiple Ingredients: --
   applemead_base:
-    name: Apple-Sugar brew
+    name: Яблочно-сахарная настойка
     ingredients:
       - Sugar_Cane/3
       - Apple
     color: 'e1ff4d' # greenish yellow
 
   poi_grass:
-    name: Boiled acidy herbs
+    name: Настойка кислотных трав
     ingredients:
       - Grass
       - Poisonous_Potato
     color: '99ff66' # bright green
 
   juniper:
-    name: Juniper brew
+    name: Настойка можжевельника
     ingredients:
       - blue-flowers
       - wheat
     color: '00ccff' # aqua
 
   gin_base:
-    name: Fruity juniper brew
+    name: Фруктовая настойка можжевельника
     ingredients:
       - blue-flowers
       - wheat
@@ -323,13 +323,74 @@ cauldron:
     color: '66e0ff' # lighter aqua
 
   eggnog_base:
-    name: Smooth egg mixture
+    name: Мягкая яичная микстура
     ingredients:
       - egg
       - sugar
       - milk_bucket
     color: 'ffecb3' # yellow-orange
+  
+  alpine_herbs:
+    name: Настойка альпийских трав
+    ingredients:
+      - Grass
+      - Blue-flowers
+      - Fern
+    color: '98FB98' #Pale Green
+    
+  strange_vermouth1:
+    name: Странный вермут
+    ingredients:
+      - Brewery:alpine_herbs
+      - Brewery:red_wine
+      - sugar
+    color: 'FFA07A' #LightSalmon
+    
+  strange_vermouth2:
+    name: Странный вермут
+    ingredients:
+      - Brewery:alpine_herbs
+      - Brewery:white_wine
+      - sugar
+    color: 'FFA07A' #LightSalmon
+    
+  strange_vermouth3:
+    name: Странный вермут
+    ingredients:
+      - Brewery:alpine_herbs
+      - Brewery:red_wine
+      - Brewery:white_wine
+      - sugar
+    color: 'FFA07A' #LightSalmon
+    
+  strange_liquor1:
+    name: Странный ликёр
+    ingredients:
+      - Brewery:alpine_herbs
+      - Brewery:vodka
+      - Sugar
+    color: 'FFFFE0' #LightYellow
+    
+  strange_liquor2:
+    name: Странный ликёр
+    ingredients:
+      - Apple
+      - Brewery:vodka
+      - Sugar
+    color: 'FFFFE0' #LightYellow
+  
+  strange_liquor3:
+    name: Странный ликёр
+    ingredients:
+      - Milk_bucket
+      - Sugar
+    color: 'FFFFE0' #LightYellow
+    
+    
+    
+    
 
+    
 
 
 # -- Recipes for Potions --
@@ -406,7 +467,7 @@ recipes:
       - POISON/1-0/20-0
 
   wheatbeer:
-    name: Skunky Wheatbeer/Wheatbeer/Fine Wheatbeer
+    name: Вонючее Пшеничное Пиво/Пшеничное Пиво/Прекрасное Пшеничное Пиво
     ingredients:
       - Wheat/3
     cookingtime: 8
@@ -416,10 +477,10 @@ recipes:
     color: 'ffb84d' # Orange
     difficulty: 1
     alcohol: 5
-    lore: +++ &8Refreshing
+    lore: +++ &8Освежающее
 
   beer:
-    name: Skunky Beer/Beer/Fine Beer
+    name: Вонючее Пиво/Пиво/Отличное Пиво
     ingredients:
       - Wheat/6
     cookingtime: 8
@@ -429,11 +490,11 @@ recipes:
     color: 'ffd333' # Bright Orange
     difficulty: 1
     lore:
-      - +++ &8Crisp taste
+      - +++ &8Бодрящий вкус
     alcohol: 6
 
   darkbeer:
-    name: Skunky Darkbeer/Darkbeer/Fine Darkbeer
+    name: Вонючее Тёмное Пиво/Тёмное Пиво/Прекрасное Тёмное Пиво
     ingredients:
       - Wheat/6
     cookingtime: 8
@@ -443,11 +504,11 @@ recipes:
     color: '650013' # Dark Red-Brown
     difficulty: 2
     lore:
-      - +++ &8Roasted taste
+      - +++ &8Печённый вкус
     alcohol: 7
 
-  wine:
-    name: Red Wine
+  red wine:
+    name: Красное Вино
     ingredients:
       - Sweet_Berries/5
     cookingtime: 5
@@ -456,15 +517,48 @@ recipes:
     age: 20
     color: RED
     difficulty: 4
-    alcohol: 8
+    alcohol: 10
     lore:
-      - '+ &8Harsh'
-      - '+ &8Corked'
-      - '++ &8Mellow'
-      - '+++ &8Full-Bodied'
-
+      - '+ &8Неприятное'
+      - '+ &8Закупоренное'
+      - '++ &8Приятное'
+      - '+++ &8Полноценное'
+      
+  white wine:
+    name: Белое Вино
+    ingredients:
+      - Sweet_Berries/10
+    cookingtime: 5
+    distillruns: 0
+    wood: 0
+    age: 15
+    color: 'fffff0' # Ivory
+    difficulty: 4
+    alcohol: 14
+    lore:
+      - '+ &8Неприятное'
+      - '+ &8Закупоренное'
+      - '++ &8Приятное'
+      - '+++ &8Полноценное'
+      
+  rose wine:
+    name: Розовое Вино
+    ingredients:
+      - Sweet_Berries/16
+    cookingtime: 5
+    distillruns: 0
+    wood: 0
+    age: 17
+    color: 'FFC0CB' # Pink
+    difficulty: 4
+    alcohol: 12
+    lore:
+      - '+ &8Неприятное'
+      - '+ &8Закупоренное'
+      - '++ &8Приятное'
+      - '+++ &8Полноценное'    
   mead:
-    name: Awkward Mead/Mead/&6Golden Mead
+    name: Отвратительная Медовуха/Медовуха/&6Золотистая Медовуха
     ingredients:
       - Sugar_Cane/6
     cookingtime: 3
@@ -474,11 +568,11 @@ recipes:
     color: ORANGE
     difficulty: 2
     lore:
-      - +++ Has a golden shine
+      - +++ Блестит словно золото
     alcohol: 9
 
   ap_mead:
-    name: Apple Mead/Sweet Apple Mead/&6Sweet Golden Apple Mead
+    name: Яблочная Медовуха/Сладкая Яблочная Медовуха/&6Сладкая Золотистая Яблочная Медовуха
     ingredients:
       - Sugar_Cane/6
       - Apple/2
@@ -490,14 +584,14 @@ recipes:
     difficulty: 4
     alcohol: 11
     lore:
-      - +Is there any Apple in this?
-      - ++Refreshing taste of Apple
-      - +++Sweetest hint of Apple
+      - +Тут вообще есть яблоки?
+      - ++Освежающий яблочный вкус
+      - +++Сладкие нотки яблок
     effects:
       - WATER_BREATHING/1-2/150
 
   cidre:
-    name: Poor Cidre/Apple Cider/Great Apple Cider
+    name: Слабый Сидр/Яблочный Сидр/Великолепный Яблочный Сидр
     ingredients:
       - Apple/14
     cookingtime: 7
@@ -507,9 +601,10 @@ recipes:
     color: 'f86820' # Red-Orange
     difficulty: 4
     alcohol: 7
+    lore: - +++В лучших традициях басков
 
   apple_liquor:
-    name: Sour Apple Liquor/Apple Liquor/Calvados
+    name: Кислый Яблочный Ликёр/Яблочный Ликёр/Кальвадос
     ingredients:
       - Apple/12
     cookingtime: 16
@@ -520,11 +615,12 @@ recipes:
     difficulty: 5
     alcohol: 14
     lore:
-      - +Sour like Acid
-      - +++ Good Apple Liquor
+      - +На вкус как кислота
+      - ++Хороший Яблочный ликёр
+      - +++Дух Нормандии
 
   whiskey:
-    name: Unsightly Whiskey/Whiskey/Scotch Whiskey
+    name: неприглядный Виски/Виски/Скотч
     ingredients:
       - Wheat/10
     cookingtime: 10
@@ -535,10 +631,10 @@ recipes:
     color: ORANGE
     difficulty: 7
     alcohol: 26
-    lore: '&7Single Malt'
+    lore: '&7Односолодовый шотладнский виски'
 
   rum:
-    name: Bitter Rum/Spicy Rum/&6Golden Rum
+    name: Горький Ром/Пряный Ром/&6Золотистый Ром
     ingredients:
       - Sugar_Cane/18
     cookingtime: 6
@@ -553,12 +649,12 @@ recipes:
       - FIRE_RESISTANCE/1/20-100
       - POISON/1-0/30-0
     lore:
-      - +&8Too bitter to drink
-      - ++&8Spiced by the barrel
-      - +++&eSpiced Gold
+      - +&8Слишком горький чтобы пить
+      - ++&8Пряный вкус бочки
+      - +++&Пряное золото
 
   vodka:
-    name: Lousy Vodka/Vodka/Russian Vodka
+    name: Мерзкая водка/Водка/Золотой Стандарт
     ingredients:
       - Potato/10
     cookingtime: 15
@@ -567,13 +663,17 @@ recipes:
     color: WHITE
     difficulty: 4
     alcohol: 20
-    lore: + &8Almost undrinkable
+    lore: 
+    - +&8Сплошной метил
+    - ++&8Дедов самогон
+    _ +++&7Стандар качества, оплот России
+          
     effects:
       - WEAKNESS/15
       - POISON/10
 
   shroom_vodka:
-    name: Mushroom Vodka/Mushroom Vodka/Glowing Mushroom Vodka
+    name: Грибная Водка/Грибная Водка/Светящаяся Грибная Водка
     ingredients:
       - Potato/10
       - Red_Mushroom/3
@@ -584,7 +684,7 @@ recipes:
     color: 'ff9999' # Pink-Red
     difficulty: 7
     alcohol: 18
-    lore: +++&aGlows in the dark
+    lore: +++&aЕбать дед ты что сварил
     effects:
       - WEAKNESS/80
       - CONFUSION/27
@@ -593,7 +693,7 @@ recipes:
       - SLOW/10-3
 
   gin:
-    name: Pale Gin/Gin/Old Tom Gin
+    name: Бледный Джин/Джин/Old Tom Джин
     ingredients:
       - Wheat/9
       - blue-flowers/6  # Custom-Item: Blue Orchids or Cornflowers
@@ -604,13 +704,13 @@ recipes:
     difficulty: 6
     alcohol: 20
     lore:
-      - ++ With the
-      - ++ taste of juniper
-      - +++ Perfectly finished off
-      - +++ with juniper
+      - ++ Со вкусом
+      - ++ можжевельника
+      - +++ Прекрасно дополненный
+      - +++ можжевельником
 
   tequila:
-    name: Mezcal/Tequila/Tequila anejo
+    name: Мезцал/Текилла/Текилла Анеййо
     ingredients:
       - cactus/8
     cookingtime: 15
@@ -620,10 +720,10 @@ recipes:
     wood: 1
     age: 12
     alcohol: 20
-    lore: Desert spirit
+    lore: Дух пустыни
 
   absinthe:
-    name: Poor Absinthe/Absinthe/Strong Absinthe
+    name: Слабый Абсент/Абсент/Крепкий Абсент
     ingredients:
       - Grass/15
     cookingtime: 3
@@ -634,10 +734,10 @@ recipes:
     alcohol: 42
     effects:
       - POISON/15-25
-    lore: '+++&8High proof liquor'
+    lore: '+++&8Ликёр высшего качества'
 
   gr_absinthe:
-    name: Poor Absinthe/Green Absinthe/Bright Green Absinthe
+    name: Слабый Травянной Абсент/Травянной Абсент/Чистый Травянной Абсент
     ingredients:
       - Grass/17
       - Poisonous_Potato/2
@@ -651,10 +751,10 @@ recipes:
       - POISON/25-40
       - HARM/2
       - NIGHT_VISION/40-60
-    lore: '&aLooks poisonous'
+    lore: '&aВыглядит Ядовито'
 
   potato_soup:
-    name: Potato soup
+    name: Картофельный Суп
     ingredients:
       - Potato/5
       - Grass/3
@@ -665,20 +765,20 @@ recipes:
       - HEAL/0-1
 
   coffee:
-    name: Stale Coffee/Coffee/Strong Coffee
+    name: Песвежий Кофе/Кофе/Крепкий Кофе
     ingredients:
       - Cocoa_Beans/12
       - Milk_Bucket/2
     cookingtime: 2
     color: BLACK
     difficulty: 3
-    lore: + &8Probably a week old
+    lore: + &8Ему уже неделя...возможно
     effects:
       - REGENERATION/1/2-5
       - SPEED/1/30-140
 
   eggnog:
-    name: Egg Liquor/Eggnog/Advocaat
+    name: Яичный Ликёр/Эгног/Адвокаат
     ingredients:
       - Egg/5
       - Sugar/2
@@ -689,7 +789,113 @@ recipes:
     alcohol: 10
     wood: 0
     age: 3
-    lore: Made with raw egg
+    lore: 
+    - +Сделан из твоих яиц
+    - +++Сделал из сырых яиц
+   
+  vermouth_bianco:
+    name: Ужасный Белый Вермут/Белый Вермут/Прекрасный Белый Вермут
+    ingredients:
+      - Brewery:white_wine/3
+      - Sugar/3
+      - Brewery:alpine_herbs/1
+    cookingtime: 12
+    distillruns: 3
+    distilltime: 45
+    color: 'f5fffa' # MintCream
+    difficulty: 9
+    alcohol: 15
+    lore: 
+      - '+++&fПопробуй Францию на вкус'
+      
+  vermouth_rosso:
+    name: Ужасный Красный Вермут/Красный Вермут/Отличный Красный Вермут
+    ingredients:
+      - Brewery:red_wine/3
+      - Sugar/5
+      - Brewery:alpine_herbs/1
+    cookingtime: 12
+    distillruns: 3
+    distilltime: 45
+    color: '9b0000' # Sanguine
+    difficulty: 9
+    alcohol: 20
+    lore: 
+      - '+&fИспанский Стыд...'
+      - '+++&fВеличие Испании'
+
+  vermouth_rose:
+    name: Ужасный Розовый Вермут/Розовый Вермут/Хороший Розовый Вермут
+    ingredients:
+      - Brewery:white_wine/1
+      - Brewery:red_wine/1
+      - Sugar/3
+      - Brewery:alpine_herbs/1
+    cookingtime: 12
+    distillruns: 3
+    distilltime: 45
+    color: 'FFB6C1' # LightPink
+    difficulty: 9
+    alcohol: 17
+    lore: 
+      - '+&3Неудавшийся гибрид'
+      - '++&cВ массы его, господа!'
+      - '+++&6На стыке двух стихий...'
+      
+  strong_liquor:
+    name: Крепкий Ликёр/Хороший Крепкий Ликёр/Отличный Крепкий Ликёр
+    ingredients:
+      - Brewery:alpine_herbs/1
+      - Brewery:vodka/1
+      - Sugar/5
+    cookingtime: 6
+    distillruns: 1
+    distilltime: 60
+    woodtype: 3
+    age: 2
+    color: 'EEE8AA' #PaleGoldenrod
+    difficulty: 8
+    alcohol: 40
+    lore: 
+    
+  dessert_liquor:
+    name: Десертный Ликёр/Хороший Десертный Ликёр/Отличный Десертный Ликёр
+    ingredients:
+      - Apple/3
+      - Brewery:vodka/1
+      - Sugar/3
+    cookingtime: 6
+    distillruns: 1
+    distilltime: 60
+    woodtype: 3
+    age: 2
+    color: 'EEE8AA' #PaleGoldenrod
+    difficulty: 7
+    alcohol: 25
+    lore:
+    
+  cream_liquor:
+    name: Крем-Ликёр/Хороший Крем-Ликёр/Отличный Крем-Ликёр
+    ingredients:
+      - Milk_bucket
+      - Brewery:vodka/1
+      - Sugar/5
+    cookingtime: 6
+    distillruns: 1
+    distilltime: 60
+    woodtype: 3
+    age: 2
+    color: 'FFF8DC' #Cornsilk
+    difficulty: 7
+    alcohol: 17
+    lore:
+    
+
+ 
+  
+    
+    
+    
 
 
 
