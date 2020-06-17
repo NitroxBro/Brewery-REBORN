@@ -183,7 +183,7 @@ cauldron:
     color: RED
 
   potato:
-    name: картофельное пюре
+    name: Картофельное пюре
     ingredients: Potato
 
   grass:
@@ -386,7 +386,18 @@ cauldron:
       - Sugar
     color: 'FFFFE0' #LightYellow
     
+  bamboo:
+    name: Настойка бамбука
+    ingredients:
+      - Bamboo
+    color: '90EE90' #LightGreen
     
+  arak_base:
+    name: Молочно-травянная настойка
+    ingredients:
+      - Milk_bucket
+      - Grass
+    color: '1CAC78' #Green Krayola
     
     
 
@@ -765,7 +776,7 @@ recipes:
       - HEAL/0-1
 
   coffee:
-    name: Песвежий Кофе/Кофе/Крепкий Кофе
+    name: Несвежий Кофе/Кофе/Крепкий Кофе
     ingredients:
       - Cocoa_Beans/12
       - Milk_Bucket/2
@@ -851,7 +862,7 @@ recipes:
     cookingtime: 6
     distillruns: 1
     distilltime: 60
-    woodtype: 3
+    woodtype: 2
     age: 2
     color: 'EEE8AA' #PaleGoldenrod
     difficulty: 8
@@ -867,7 +878,7 @@ recipes:
     cookingtime: 6
     distillruns: 1
     distilltime: 60
-    woodtype: 3
+    woodtype: 2
     age: 2
     color: 'EEE8AA' #PaleGoldenrod
     difficulty: 7
@@ -883,14 +894,63 @@ recipes:
     cookingtime: 6
     distillruns: 1
     distilltime: 60
-    woodtype: 3
+    woodtype: 2
     age: 2
     color: 'FFF8DC' #Cornsilk
     difficulty: 7
     alcohol: 17
     lore:
     
+  bamboo_beer:
+    name: Горькое Бамбуковое Пиво/Хороший Бамбуковое Пиво/Прекрасное Бамбуковое Пиво
+    ingredients:
+      - Bamboo/5
+    cookingtime: 3
+    woodtype: 3
+    age: 2
+    color: 'FFF8DC' #Cornsilk
+    difficulty: 3
+    alcohol: 5
+    lore:
 
+  bamboo_vodka:
+    name: Мерзкая Бамбуковая Водка/Хорошая Бамбуковая Водка/Прекрасная Бамбуковая Водка
+    ingredients:
+      - Bamboo/16
+    cookingtime: 15
+    distillruns: 5
+    distilltime: 50
+    color: '98FB98' #PaleGreen
+    difficulty: 5
+    alcohol: 35
+    lore:
+    
+  arak:
+    name: Мерзкая Бамбуковая Водка/Хорошая Бамбуковая Водка/Прекрасная Бамбуковая Водка
+    ingredients:
+      - Milk_bucket/1
+      - Grass/3
+    cookingtime: 15
+    distillruns: 5
+    distilltime: 50
+    color: 'E0FFFF' #LightCyan
+    difficulty: 7
+    alcohol: 50
+    lore: 
+     
+  brandy:
+    name: Брэнди/Хороший Брэнди/Отличный Брэнди
+    ingredients:
+      - Sweat_berries/10
+    cookingtime: 6
+    distillruns: 3
+    distilltime: 45
+    woodtype: 2
+    age: 3
+    color: 'F0FFFF'/'DAA520'
+    difficulty: 7
+    alcohol: 30
+    lore:
  
   
     
